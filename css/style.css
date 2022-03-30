@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding-bottom: 3rem;
+    font-family: Arial;
+}
+.title {
+    height: 50x;
+    background:#f3f2f2;
+    text-align: center;
+    font-size: 25px;
+}
+.top_name{
+    outline: none;
+    height: 3rem;
+    display: flex;
+    padding-left: 5px;
+}
+.bottom_message {
+    padding: 2px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    height: 3rem;
+}
+button {
+    background: rgb(66, 202, 236);
+    padding: 0 1rem;
+    margin: 0.25rem;
+    border-radius: 3px;
+    outline: none;
+    color: #fff;
+}
+input {
+    padding: 2px;
+    border-radius: 3px;
+    margin: 0;
+}
+.messages {
+    margin: 0;
+}
+.message_input_wrapper{
+    width: 100%;
+}
+.message_input{
+    width: 100%;
+}
+.messages > li {
+    padding: 15px;
+}
